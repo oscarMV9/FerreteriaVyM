@@ -1,4 +1,4 @@
-name: Desplegar proyecto con astro/ ferreteria VyM
+name: desplegar proyecto astro/ferreteriaVyM
 
 on:
   push:
