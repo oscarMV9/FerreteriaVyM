@@ -24,7 +24,7 @@ import data from '../productos.json';
                         style={{ animationDelay: `${index * 0.2}s` }}
                         >
                         <img
-                            src={marca.imagen}
+                            src={`${import.meta.env.BASE_URL}/marcas/${marca.imagen}`}
                             alt={marca.nombre}
                             class="h-32 -z-1 w-full rounded-t-lg bg-gray-100"
                         />

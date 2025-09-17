@@ -1,5 +1,6 @@
 ---
 import { FaGithub, FaWhatsapp, FaLinkedin } from "react-icons/fa";
+import "../styles/global.css";
 ---
 
 
@@ -14,14 +15,14 @@ import { FaGithub, FaWhatsapp, FaLinkedin } from "react-icons/fa";
 	</head>
 	<body class="min-h-screen flex flex-col">
 		<div class="fixed inset-0 -z-10">
-			<img src="/fondo_ferreteria.jpg" alt="imagen" class="w-full h-full object-cover">
+			<img src={`${import.meta.env.BASE_URL}/fondo_ferreteria.jpg`} alt="imagen" class="w-full h-full object-cover">
 			<div class="absolute inset-0 bg-[#0000008c] opacity-40 h-auto"></div>
 		</div>
 		<div class="w-auto mt-0 p-1 object-cover">
 			<nav class="w-auto flex flex-row items-center">
 				<div class="flex items-center py-2 w-32 md:w-40 mx-1 md:mx-9 max-md:hidden max-md justify-between">
 				<a href="/FerreteriaVyM/" class="flex items-center">
-					<img src="/ferreteriavym.png" alt="Logo" class="w-100 h-10 mx-2" />
+					<img src={`${import.meta.env.BASE_URL}/ferreteriavym.png`} alt="Logo" class="w-100 h-10 mx-2" />
 				</a>
 				</div>
 				<div class="flex flex-row  mx-2 md:mx-10 justify-end w-full max-md:pt-2 max-md:justify-around max-md:mt-5">
@@ -36,7 +37,7 @@ import { FaGithub, FaWhatsapp, FaLinkedin } from "react-icons/fa";
     <div class="flex p-4 justify-center bg-[#535353be]">
         <div class="flex items-center py-2 w-32 md:w-40 mx-1 md:mx-9 max-md:hidden max-md justify-between">
             <a href="" class="flex items-center">
-                <img src="/ferreteriavym.png" alt="Logo" class="w-100 h-10 mx-2" />
+                <img src={`${import.meta.env.BASE_URL}/ferreteriavym.png`} alt="Logo" class="w-100 h-10 mx-2" />
             </a>
         </div>
         <div class="flex items-center gap-4">

@@ -23,12 +23,12 @@ import Layout from '../layouts/Layout.astro';
     </div>
   </div>
   <div class="animacion-derecha flex justify-center items-center h-full w-full">
-    <img src="/ferreteria1.jpg" alt="ferreteria-1" class="w-full h-auto rounded-md">
+    <img src={`${import.meta.env.BASE_URL}/ferreteria1.jpg`} alt="ferreteria-1" class="w-full h-auto rounded-md">
   </div>
 </div>
   <div class="grid grid-cols-1 grid- md:grid-cols-2 mt-6 gap-4 px-10 min-xl:px-20 min-xl:mx-10 h-full items-center">
   <div class="animacion-derecha flex justify-center items-center h-full">
-    <img src="/ferreteria_tendero.jpeg" alt="ferreteria-1" class="w-full h-auto rounded-md">
+    <img src={`${import.meta.env.BASE_URL}/ferreteria_tendero.jpeg`} alt="ferreteria-1" class="w-full h-auto rounded-md">
   </div>
   <div class="animacion-izquierda flex flex-col items-center justify-center m-1 px-2 h-full bg-[#1817179a] border-2 border-amber-100 transform-3d transition duration-400 hover:scale-105">
     <p class="text-[1.1rem] font-bold text-center text-[#f3f3f3]">

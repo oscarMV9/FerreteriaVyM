@@ -54,7 +54,7 @@
           "tipo": "corte diagonal",
           "marcas": [
             {"nombre": "stanley","precio": 22000,"cantidades":14,"descripcion":"Alicate corte diagonal stanley goma encauchado","imagen": "../marcas/alicateStanley.png"},
-            {"nombre": "truper","precio": 19500,"cantidades":10,"descripcion":"alicate diagonal truper 4mm sencilla","imagen": "/marcas/alicateTruper.png"}
+            {"nombre": "truper","precio": 19500,"cantidades":10,"descripcion":"alicate diagonal truper 4mm sencilla","imagen": "../marcas/alicateTruper.png"}
           ]
         },
         {
@@ -72,15 +72,15 @@
         {
           "tipo": "eléctrico",
           "marcas": [
-            {"nombre": "DeWalt","precio": 180000,"cantidades":6,"descripcion": "Taladro electrico Dewalt con accesorio 3 velocidades","imagen": "/marcas/taladroDewalt.png"},
-            {"nombre": "makita","precio": 175000,"cantidades":7, "descripcion":"taladro electrico makita multinivel 2 velocidades","imagen": "/marcas/taladroMakita.png"}
+            {"nombre": "DeWalt","precio": 180000,"cantidades":6,"descripcion": "Taladro electrico Dewalt con accesorio 3 velocidades","imagen": "../marcas/taladroDewalt.png"},
+            {"nombre": "makita","precio": 175000,"cantidades":7, "descripcion":"taladro electrico makita multinivel 2 velocidades","imagen": "../marcas/taladroMakita.png"}
           ]
         },
         {
           "tipo": "inalámbrico",
           "marcas": [
-            {"nombre": "stanley","precio": 220000,"cantidades":5,"descripcion":"Taladro inalambrico DEwalt liviano con accesorios","imagen": "/marcas/taladroDewaltInalambrico.png"},
-            {"nombre": "truper","precio": 210000,"cantidades":4,"descripcion":"Taladro inalambrico truper suave 4 velocidades ", "imagen": "/marcas/taladroInalambricoTruper.png"}
+            {"nombre": "stanley","precio": 220000,"cantidades":5,"descripcion":"Taladro inalambrico DEwalt liviano con accesorios","imagen": "../marcas/taladroDewaltInalambrico.png"},
+            {"nombre": "truper","precio": 210000,"cantidades":4,"descripcion":"Taladro inalambrico truper suave 4 velocidades ", "imagen": "../marcas/taladroInalambricoTruper.png"}
           ]
         }
       ]
