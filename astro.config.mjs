@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   integrations: [react()],
   site: "https://oscarMV9.github.io",
-  base:"FerreteriaVyM",
+  base:"/FerreteriaVyM/",
   vite: {
     plugins: [tailwindcss()]
   }
