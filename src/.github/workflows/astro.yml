@@ -1,4 +1,4 @@
-name: Deploy Astro site to Pages
+name: desplegar proyecto astro/ferreteriaVyM
 
 on:
   push:
@@ -21,12 +21,16 @@ jobs:
         with:
           node-version: 20
           cache: "pnpm"
+          cache-dependency-path: pnpm-lock.yaml
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
           version: 9
-          run_install: true
+          run_install: false
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
       - name: Build
         run: pnpm run build
