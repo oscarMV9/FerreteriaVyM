@@ -1,0 +1,89 @@
+{
+  "herramientas": [
+    {
+      "nombre": "destornilladores",
+      "tipos": [
+        {
+          "tipo": "pala",
+          "marcas": [
+            {"nombre": "stanley","precio": 15000,"cantidades":10, "descripcion": "Destornillador de pala stanley punta fina","imagen": "../marcas/destornilladorStanley_pala.png"},
+            {"nombre": "DeWalt","precio": 13500,"cantidades":11, "descripcion": "Destornillador pala dewalt 2mm", "imagen": "../marcas/DestornilladorDeWalt_pala.png"},
+            {"nombre": "makita","precio": 300000,"cantidades":14, "descripcion": "Destornillador electrio makita 1un 3mm","imagen": "../marcas/DestornilladorMakita.png"}
+        ]
+        },
+        {
+          "tipo": "estrella",
+          "marcas": [
+            {"nombre": "makita","precio": 10000,"cantidades":9, "descripcion": "Destornillador electrico punta estrella makita punta fina","imagen": "../marcas/destornilladorMakitaEstrella.png"},
+            {"nombre": "DeWalt","precio": 12000,"cantidades":10,"descripcion": "Destornillador estrella punta estrella fina diamantada","imagen": "../marcas/destonilladorEstrellaDewalt.png"}
+          ]
+        },
+        {
+          "tipo": "posidriv",
+          "marcas": [
+            {"nombre": "stanley","precio": 9000,"cantidades":11,"descripcion": "Destornillador tipo posidriv stanley","imagen": "../marcas/destornilladorPosidrvStanley.png"}
+          ]
+        }
+      ]
+    },
+    {
+        "nombre": "martillos",
+        "tipos": [
+            {
+                "tipo": "martillo de oreja",
+                "marcas": [
+                    {"nombre": "stanley","precio": 15000,"cantidades":10, "descripcion": "martillo oreja acero con mango madera stanley","imagen": "../marcas/martilloOrejaStanley.png"},
+                    {"nombre": "superior","precio": 12500,"cantidades":14,"descripcion": "martillo oreja superior aceo inoxidable", "imagen": "../marcas/martilloOrejaSuperior.png"},
+                    {"nombre": "truper","precio": 17000,"cantidades":15,"descripcion": "martillo oreja truper redondo mango acauchado", "imagen": "../marcas/martilloOrejatruper.png"}
+                ]
+            },
+            {
+                "tipo": "martillo mazo goma",
+                "marcas": [
+                    {"nombre": "tramontina","precio": 24000,"cantidades":15,"descripcion":"martillo goma para baldosa 30mm", "imagen": "../marcas/martilloGomaTramontina.png"},
+                    {"nombre": "stanley", "precio":32000, "cantidades":27,"descripcion":"mazo goma stanley mango suave blanco", "imagen": "../marcas/martilloGomaBlanca.png"},
+                    {"nombre": "truper", "precio": 26500, "cantidades":10, "descripcion":"mazo goma truper para acabados","imagen": "../marcas/martilloGomaTruper.png"}
+                ]
+            }
+        ]   
+    },
+    {
+      "nombre": "alicates",
+      "tipos": [
+        {
+          "tipo": "corte diagonal",
+          "marcas": [
+            {"nombre": "stanley","precio": 22000,"cantidades":14,"descripcion":"Alicate corte diagonal stanley goma encauchado","imagen": "../marcas/alicateStanley.png"},
+            {"nombre": "truper","precio": 19500,"cantidades":10,"descripcion":"alicate diagonal truper 4mm sencilla","imagen": "/marcas/alicateTruper.png"}
+          ]
+        },
+        {
+          "tipo": "universal",
+          "marcas": [
+            {"nombre": "makita","precio": 25000,"cantidades":8,"descripcion": "Alicate universal makita acero inoxidable","imagen": "../marcas/alicateUniversalMakita.png"},
+            {"nombre": "tramontina","precio": 23500,"cantidades":12,"descripcion":"alicate universal tramontina mango encauchado libiano","imagen": "../marcas/alicateUniversalNaranja.jpeg"}
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "taladros",
+      "tipos": [
+        {
+          "tipo": "eléctrico",
+          "marcas": [
+            {"nombre": "DeWalt","precio": 180000,"cantidades":6,"descripcion": "Taladro electrico Dewalt con accesorio 3 velocidades","imagen": "/marcas/taladroDewalt.png"},
+            {"nombre": "makita","precio": 175000,"cantidades":7, "descripcion":"taladro electrico makita multinivel 2 velocidades","imagen": "/marcas/taladroMakita.png"}
+          ]
+        },
+        {
+          "tipo": "inalámbrico",
+          "marcas": [
+            {"nombre": "stanley","precio": 220000,"cantidades":5,"descripcion":"Taladro inalambrico DEwalt liviano con accesorios","imagen": "/marcas/taladroDewaltInalambrico.png"},
+            {"nombre": "truper","precio": 210000,"cantidades":4,"descripcion":"Taladro inalambrico truper suave 4 velocidades ", "imagen": "/marcas/taladroInalambricoTruper.png"}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+---
+import { FaGithub, FaWhatsapp, FaLinkedin } from "react-icons/fa";
+---
+
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="stylesheet" href="src/styles/global.css"/>
+		<title>Ferreteria VyM</title>
+	</head>
+	<body class="min-h-screen flex flex-col">
+		<div class="fixed inset-0 -z-10">
+			<img src="/fondo_ferreteria.jpg" alt="imagen" class="w-full h-full object-cover">
+			<div class="absolute inset-0 bg-[#0000008c] opacity-40 h-auto"></div>
+		</div>
+		<div class="w-auto mt-0 p-1 object-cover">
+			<nav class="w-auto flex flex-row items-center">
+				<div class="flex items-center py-2 w-32 md:w-40 mx-1 md:mx-9 max-md:hidden max-md justify-between">
+				<a href="/" class="flex items-center">
+					<img src="/ferreteriavym.png" alt="Logo" class="w-100 h-10 mx-2" />
+				</a>
+				</div>
+				<div class="flex flex-row  mx-2 md:mx-10 justify-end w-full max-md:pt-2 max-md:justify-around max-md:mt-5">
+					<a href="/" class="link-underline text-center py-1 md:py-2 px-1 mx-1 md:mx-3 text-base md:text-[20px] text-amber-50">Inicio</a>
+					<a href="/productos" class="link-underline text-center py-1 md:py-2 px-1 mx-1 md:mx-3 text-base md:text-[20px] text-amber-50">Nuestros Productos</a>
+					<a href="/contacto" class="link-underline text-center py-1 md:py-2 px-1 mx-1 md:mx-3 text-base md:text-[20px] text-amber-50">Contactanos!</a>
+				</div>
+			</nav>
+		</div>
+		<slot/>
+		<footer class="p-3 w-full h-auto mt-10">
+    <div class="flex p-4 justify-center bg-[#535353be]">
+        <div class="flex items-center py-2 w-32 md:w-40 mx-1 md:mx-9 max-md:hidden max-md justify-between">
+            <a href="" class="flex items-center">
+                <img src="/ferreteriavym.png" alt="Logo" class="w-100 h-10 mx-2" />
+            </a>
+        </div>
+        <div class="flex items-center gap-4">
+            <a href="https://github.com/oscarMV9" target="_blank" rel="noopener">
+                <FaGithub size={24} class="text-white" />
+            </a>
+            <a href="https://wa.link/gkd4jp" target="_blank" rel="noopener">
+                <FaWhatsapp size={24} class="text-green-500" />
+            </a>
+            <a href="https://www.linkedin.com/in/oscarmontoyadev" target="_blank" rel="noopener">
+                <FaLinkedin size={24} class="text-blue-500" />
+            </a>
+        </div>
+    </div>
+</footer>
+	</body>
+</html>

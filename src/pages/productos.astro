@@ -1,0 +1,50 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../productos.json';
+---
+
+<Layout>
+    <div class="animate-fadeIn w-full h-auto flex flex-row justify-center p-8 mt-20">
+        <div class="w-full h-auto mx-5 py-3 px-10 min-md:px-3">
+            <h1 class="text-6xl text-center font-semibold text-cyan-50 max-md:text-4xl">
+                Encuentra nuestros mejores productos de las mejores marcas
+            </h1>
+        </div>
+    </div>
+    <section class="w-full mt-10 p-4">
+        <div class="max-w-7xl mx-auto p-6">
+            <h1 class="text-3xl font-bold text-center mb-8 text-amber-100 animate-fade-left animate-ease-in-out animate-normal animate-fill-forwards">Catálogo de Productos</h1>
+                <div class="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                {data.herramientas.map((categoria) =>
+                    categoria.tipos.map((tipo) =>
+                    tipo.marcas.map((marca, index) => (
+                        <div
+                        class={`rounded-xl shadow hover:shadow-xl transition flex flex-col 
+                                animate-fade-up animate-ease-in-out animate-normal animate-fill-forwards transform-3d duration-400 hover:scale-105`}
+                        style={{ animationDelay: `${index * 0.2}s` }}
+                        >
+                        <img
+                            src={marca.imagen}
+                            alt={marca.nombre}
+                            class="h-32 -z-1 w-full rounded-t-lg bg-gray-100"
+                        />
+                        <div class="w-full p-4 flex flex-col rounded-b-lg bg-[#000000c2]">
+                            <h3 class="text-lg font-medium text-[#fff] text-center">
+                            {marca.descripcion}
+                            </h3>
+                            <p class="text-sm text-gray-500 text-center">tipo: {tipo.tipo}</p>
+                            <div class="w-full flex gap-1 justify-between items-center py-2">
+                            <p class="text-[#1cc947] font-bold">
+                                ${marca.precio.toLocaleString("es-CO")}
+                            </p>
+                            <p class="text-sm text-[#fdfdfd]">Stock: {marca.cantidades}</p>
+                            </div>
+                        </div>
+                        </div>
+                    ))
+                    )
+                )}
+                </div>
+            </div>
+    </section>
+</Layout>
